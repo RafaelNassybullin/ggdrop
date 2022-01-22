@@ -1,0 +1,25 @@
+.profile-refill {
+  width: 120px;
+  height: 46px;
+  background: #5CBB98;
+  border-radius: 8px;
+  color: #F1FFDE;
+  padding: 0 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  .profile-refill__title {
+    font-family: 'Gotham-Bold', sans-serif;
+  }
+
+  .profile-refill__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      height: 22px;
+    }
+  }
+}

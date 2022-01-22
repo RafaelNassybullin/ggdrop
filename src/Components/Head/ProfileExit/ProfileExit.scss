@@ -1,0 +1,14 @@
+.profile-exit {
+  width: 46px;
+  height: 46px;
+  background: #272A38;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  cursor: pointer;
+
+  svg {
+    height: 22px;
+  }
+}

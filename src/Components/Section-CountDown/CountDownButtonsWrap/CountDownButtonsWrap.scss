@@ -1,0 +1,16 @@
+.count-down-buttons-wrap{
+  width: 434px;
+  height: 72px;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  @media(max-width: 1625px) {
+      width: calc(434px / 1.5);
+      height: calc(72px / 1.5);
+      right:calc(25px / 1.5) ;
+    }
+}

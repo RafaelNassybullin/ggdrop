@@ -1,0 +1,28 @@
+.footer-mail__button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  cursor: pointer;
+  width: 244px;
+  height: 54px;
+  border: 1px dashed #934C4C;
+  outline: none;
+  background: transparent;
+  border-radius: 8px;
+  color: #934C4C;
+  font-size: 15px;
+  font-family: 'Gotham-Book', sans-serif;
+
+  .footer-mail__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+
+    svg {
+      height: 24px;
+    }
+  }
+}

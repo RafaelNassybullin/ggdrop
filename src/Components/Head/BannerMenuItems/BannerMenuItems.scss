@@ -1,0 +1,50 @@
+.banner-menu-items{
+  color: #CECFDE;
+  text-transform: uppercase ;
+  cursor: pointer;
+  width: fit-content;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  &:hover{
+    color: #FFBD98;
+    svg{
+      fill: #FFBD98;
+    }
+  }
+  &__icon{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-right: 9px;
+    svg{
+      fill: #474754;
+      height: 22px;
+    }
+  }
+  &__title{
+    font-family: 'Gotham-Bold', sans-serif;
+    font-size: 13px;
+    margin-right: 25px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  &__new{
+    width: 31px;
+    height: 16px;
+    margin-left: 9px;
+    background: #EA639C;
+    border-radius: 4px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color: white;
+    font-size: 8px;
+    font-family: 'Gotham-Ultra', sans-serif;
+  }
+}
+
+
+
+

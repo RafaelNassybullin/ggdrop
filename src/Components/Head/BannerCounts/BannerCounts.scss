@@ -1,0 +1,49 @@
+.banner-counts {
+  height: 28px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: fit-content;
+
+  &__icon {
+    margin-right: 11px;
+
+    svg {
+      height: 22px;
+    }
+
+    .overlay-shadow-anim {
+      animation: onlineIndicator 1000ms infinite ease-in-out;
+    }
+  }
+
+  &__text-wrap {
+
+  }
+
+  &__numbers {
+    color: #CECFDE;
+    font-family: 'Gotham-Bold', sans-serif;
+    font-size: 15px;
+  }
+
+  &__titles {
+    color: #60627A;
+    text-transform: uppercase;
+    font-family: 'Gotham-Medium', sans-serif;
+    font-size: 10px;
+  }
+}
+
+@keyframes onlineIndicator {
+  0% {
+    filter: drop-shadow(0 0 0px #A98AFF);
+
+    50% {
+      filter: drop-shadow(0 0 5px #A98AFF);
+    }
+  }
+  100% {
+    filter: drop-shadow(0 0 10px #A98AFF);
+  }
+}

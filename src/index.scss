@@ -1,0 +1,43 @@
+@import "src/Assets/Fonts/fonts";
+
+:root {
+  --light: #CECFDE;
+  --light100: #6B6E80;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  overflow-y: scroll;
+  height: 5px;
+  width: 7px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #343849;
+  border-radius: 15px;
+}
+
+body {
+  background: #1D1E2A;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.gg {
+  min-width: 132px;
+  height: 104px;
+}
+

@@ -1,0 +1,44 @@
+.bonuses {
+  width: 111px;
+  height: 104px;
+  background: #242633;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-family: 'Gotham-Ultra', sans-serif;
+  border-radius: 0 0 0 12px;
+  .bonuses__icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    margin-bottom: 12px;
+
+    .bonuses__svg {
+      width: 36px;
+    }
+
+    .bonuses__count {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      bottom: -5px;
+      right: -3px;
+      font-size: 10px;
+      width: 16px;
+      height: 16px;
+      background: #EA639C;
+      border-radius: 6px;
+    }
+  }
+
+  .bonuses__title {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,29 @@
+.banner-items{
+  max-width: 1860px;
+  width: 100%;
+  display:flex;
+  overflow: hidden;
+  align-items:center;
+  justify-content:flex-end;
+  position: relative;
+  &:before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    z-index: 9;
+    box-shadow: 80px 3px 50px 110px rgba(33, 35, 47, 0.7);
+  }
+  &:after{
+    content:'';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    z-index: 9;
+    box-shadow: -80px 3px 50px 110px rgba(33, 35, 47, 0.7);
+  }
+}

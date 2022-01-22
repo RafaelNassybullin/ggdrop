@@ -1,0 +1,28 @@
+.footer-coop-btn {
+  width: 232px;
+  height: 54px;
+  border: none;
+  outline: none;
+  background: #1E1E2C;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+
+  &__title {
+    color: #96AADD;
+    font-family: 'Gotham-Black', sans-serif;
+    font-size: 13px;
+  }
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      height: 21px;
+    }
+  }
+}
