@@ -74,7 +74,7 @@ export const BannerItems = () => {
         {
             gunImage:gunImage7,
             gun:'Talon Knife',
-            gunName:blueIcon,
+            gunName:'Hive',
             icon: lightblue,
             colorClassName:' lightblue',
         },
