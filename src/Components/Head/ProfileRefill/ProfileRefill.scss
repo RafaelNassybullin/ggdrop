@@ -9,11 +9,11 @@
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
-  .profile-refill__title {
+  &__title {
     font-family: 'Gotham-Bold', sans-serif;
   }
 
-  .profile-refill__icon {
+  &__icon {
     display: flex;
     align-items: center;
     justify-content: center;
